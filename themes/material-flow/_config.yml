@@ -18,9 +18,9 @@ search:
 
 # friends link
 links:
-  - name: w3c gpu group
+  - name: W3C GPU
     url: https://www.w3.org/community/gpu/
-  - name: w3cplus
+  - name: W3C Plus
     url: http://www.w3cplus.com/
 
 # navigation menu

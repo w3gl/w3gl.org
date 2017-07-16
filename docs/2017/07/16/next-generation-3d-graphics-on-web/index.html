@@ -1,11 +1,138 @@
-<?xml version="1.0" encoding="utf-8"?>
-<search> 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
+  <title>Next-generation 3D Graphics on the Web | W3GL</title>
+  <meta name="description" content="The Developer Community for Web Graphics Language" />
+  <meta name="keywords" content="w3c,webgl,webgl2,webgpu,webgraphics,canvas,3d,web3d,frontend,glsl,opengl,shaderlanguage,metalshaderlanguage" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="alternate" href="/atom.xml" title="W3GL">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Apple’s WebKit team today proposed a new Community Group at the W3C to discuss the future of 3D graphics on the Web, and to develop a standard API that exposes modern GPU features including low-level">
+<meta name="keywords" content="转载">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Next-generation 3D Graphics on the Web">
+<meta property="og:url" content="http://w3gl.org/2017/07/16/next-generation-3d-graphics-on-web/index.html">
+<meta property="og:site_name" content="W3GL">
+<meta property="og:description" content="Apple’s WebKit team today proposed a new Community Group at the W3C to discuss the future of 3D graphics on the Web, and to develop a standard API that exposes modern GPU features including low-level">
+<meta property="og:image" content="http://w3gl.org/images/next-generation.jpg">
+<meta property="og:updated_time" content="2017-07-16T13:57:59.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Next-generation 3D Graphics on the Web">
+<meta name="twitter:description" content="Apple’s WebKit team today proposed a new Community Group at the W3C to discuss the future of 3D graphics on the Web, and to develop a standard API that exposes modern GPU features including low-level">
+<meta name="twitter:image" content="http://w3gl.org/images/next-generation.jpg">
     
-    <entry>
-      <title><![CDATA[Next-generation 3D Graphics on the Web]]></title>
-      <url>/2017/07/16/next-generation-3d-graphics-on-web/</url>
-      <content type="html"><![CDATA[<p><img src="/images/next-generation.jpg" alt="the next generation"><br>Apple’s WebKit team today proposed a new Community Group at the W3C to discuss the future of 3D graphics on the Web, and to develop a standard API that exposes modern GPU features including low-level graphics and general purpose computation. W3C Community Groups allow all to freely participate, and we invite browser engineers, GPU hardware vendors, software developers and the Web community to join us.<br><a id="more"></a></p>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href='//cdn.bootcss.com/node-waves/0.7.5/waves.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="/style.css">
+  <script>
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
+  </script>
+</head>
+
+<body>
+  <div id="loading-bar-wrapper">
+  <div id="loading-bar"></div>
+</div>
+
+
+  <script>setLoadingBarProgress(20)</script> 
+  <header class="l_header">
+	<div class='wrapper'>
+		<div class="nav-main container container--flex">
+			<a class="logo flat-box" href='/' >
+				W3GL
+			</a>
+			<div class='menu'>
+				<ul class='h-list'>
+					
+						<li>
+							<a class='flat-box nav-home' href='/'>
+								Home
+							</a>
+						</li>
+					
+				</ul>
+				<div class='underline'></div>
+			</div>
+			
+				<div class="m_search">
+					<form name="searchform" class="form u-search-form">
+						<input type="text" class="input u-search-input" placeholder="Search" />
+						<span class="icon icon-search"></span>
+					</form>
+				</div>
+			
+			<ul class='switcher h-list'>
+				
+					<li class='s-search'><a href='javascript:void(0)'><span class="icon icon-search flat-box"></span></a></li>
+				
+				<li class='s-menu'><a href='javascript:void(0)'><span class="icon icon-menu flat-box"></span></a></li>
+			</ul>
+		</div>
+		
+		<div class='nav-sub container container--flex'>
+			<a class="logo" class="flat-box" href='javascript:void(0)'>
+				Word of Forks
+			</a>
+
+			<ul class='switcher h-list'>
+				<li class='s-comment'><a href='javascript:void(0)'><span class="icon icon-chat_bubble_outline flat-box"></span></a></li>
+				<li class='s-top'><a href='javascript:void(0)'><span class="icon icon-arrow_upward flat-box"></span></a></li>
+				<li class='s-toc'><a href='javascript:void(0)'><span class="icon icon-format_list_numbered flat-box"></span></a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+<aside class="menu-phone">
+	<nav>
+		
+			<a href="/" class="nav-home nav">
+				Home
+			</a>
+		
+	</nav>
+</aside>
+
+    <script>setLoadingBarProgress(40);</script>
+  <div class="l_body">
+    <div class='container clearfix'>
+      <div class='l_main'>
+        <article id="post-next-generation-3d-graphics-on-web"
+  class="post white-box article-type-post"
+  itemscope itemprop="blogPost">
+	<section class='meta'>
+	<h2 class="title">
+  	<a href="/2017/07/16/next-generation-3d-graphics-on-web/">
+    	Next-generation 3D Graphics on the Web
+    </a>
+  </h2>
+	
+	<a href="https://webkit.org/blog/7380/next-generation-3d-graphics-on-the-web/" class="original">阅读原文</a>
+	
+	<time>
+	  7月 16, 2017
+	</time>
+	
+    
+    <div class='cats'>
+        <a href="/categories/WebGPU/">WebGPU</a>
+    </div>
+
+	</section>
+	
+		<section class="toc-wrapper"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#First-a-Little-History"><span class="toc-number">1.</span> <span class="toc-text">First, a Little History</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#What’s-Next"><span class="toc-number">2.</span> <span class="toc-text">What’s Next?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#WebKit’s-Initial-API-Proposal"><span class="toc-number">3.</span> <span class="toc-text">WebKit’s Initial API Proposal</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Getting-a-Rendering-Context-and-Rendering-Pipeline"><span class="toc-number">3.1.</span> <span class="toc-text">Getting a Rendering Context and Rendering Pipeline</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Buffers"><span class="toc-number">3.2.</span> <span class="toc-text">Buffers</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Drawing"><span class="toc-number">3.3.</span> <span class="toc-text">Drawing</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#An-Open-Invitation"><span class="toc-number">4.</span> <span class="toc-text">An Open Invitation</span></a></li></ol></section>
+	
+	<section class="article typo">
+  	<div class="article-entry" itemprop="articleBody">
+    	<p><img src="/images/next-generation.jpg" alt="the next generation"><br>Apple’s WebKit team today proposed a new Community Group at the W3C to discuss the future of 3D graphics on the Web, and to develop a standard API that exposes modern GPU features including low-level graphics and general purpose computation. W3C Community Groups allow all to freely participate, and we invite browser engineers, GPU hardware vendors, software developers and the Web community to join us.<br><a id="more"></a></p>
 <p>To kick off the discussion, we’re sharing an API proposal, and a prototype of that API for the WebKit Open Source project. We hope this is a useful starting point, and look forward to seeing the API evolve as discussions proceed in the Community Group.</p>
 <p><strong>UPDATE</strong>: There is now a prototype implementation and demos of WebGPU.</p>
 <p>Let’s cover the details of how we got to this point, and how this new group relates to existing Web graphics APIs such as WebGL.</p>
@@ -48,48 +175,131 @@
 <p>Like most 3D graphics sample code, it feels like a lot of work in order to draw a simple shape. But it’s not a waste. An advantage of these modern APIs is that much of that code is creating objects that can be reused to draw other things. For example, often content will only need a single <code>WebGPUCommandQueue</code> instance, or can create multiple <code>WebGPURenderPipelineState</code> objects up-front for different shaders. And again, the browser can do a lot of early validation to reduce the overhead during the drawing operations.</p>
 <p>Hopefully this gave you a taste of the WebGPU proposal. Even though the final API produced by the W3C Community Group may be very different, we expect a lot of the general design principles to be common.</p>
 <h2 id="An-Open-Invitation"><a href="#An-Open-Invitation" class="headerlink" title="An Open Invitation"></a>An Open Invitation</h2><p>Apple’s WebKit team has proposed establishing a W3C Community Group for GPU on the Web to be the forum for this work, and today you are invited to join us in defining the next standard for GPUs. Our proposal has been received positively by our colleagues at other browser engines, GPU vendors, and framework developers. With support from the industry, we invite all with an interest or expertise in this area to join the Community Group.</p>
-]]></content>
+
+  	</div>
+	  
+	  <div class="article-tags tags">
       
-        <categories>
-            
-            <category> WebGPU </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 转载 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Web图形技术中国社区欢迎您]]></title>
-      <url>/2017/07/16/welcome-and-getting-started/</url>
-      <content type="html"><![CDATA[<p><img src="/images/webgpu-apple.jpg" alt="webgpu"><br>Web图形技术中国社区正式成立！欢迎GPU开发爱好者或Web技术爱好者一起探讨和学习。<br><a id="more"></a></p>
-<p>2017年2月，W3C的Web GPU社区工作组正式成立，并迅速成长。我们期待Web图形技术迎来崭新的时代。无论是当下成熟的WebGL技术，还是未来的WebGPU技术，都赋予了在Web端进行GPU开发的卓越能力。有了这些图形技术，Web开发者可以自由的发挥想象，创造神奇的，令人叹为观止作品。</p>
-<p>无论你身为传统的游戏开发者，还是Web技术的狂热爱好者，Web图形技术既是一门崭新的技术，也是一项艰难的挑战。我们希望，这里的每一篇文章，每一滴沉淀，都来自每一个开发者，也服务每一位开发者。在这里，你能翻阅到最新、最权威的原创或译文，我们致力于提供开放、合作、自由的开发者社区，愿大家在热爱的领域里一同前行。</p>
-<p>除了中国社区，您也可以访问W3C的官方社区来获得更多的信息：</p>
-<p><a href="https://www.w3.org/community/gpu/" target="_blank" rel="external">GPU FOR THE WEB COMMUNITY GROUP</a></p>
-]]></content>
+        <a href="/tags/转载/">转载</a>
       
-        <categories>
-            
-            <category> WebGPU </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 入门 </tag>
-            
-        </tags>
-        
-    </entry>
+	  </div>
     
+		
+	
+		<div class="art-item-footer">
+				
+				
+					<span class="art-item-right">next：<a href="/2017/07/16/welcome-and-getting-started/" rel="next"  title="Web图形技术中国社区欢迎您">
+						Web图形技术中国社区欢迎您
+					</a><i class="icon icon-chevron-thin-right"></i></span>
+				
+		</div>
+	
+	</section>
+	
+</article>
+<script>
+	window.subData = {
+		title: 'Next-generation 3D Graphics on the Web',
+		tools: true
+	}
+</script>
+
+      </div>
+      <aside class='l_side'>
+        
+  <section class='m_widget categories'>
+<div class='header'>Categories</div>
+<div class='content'>
+    
+    <ul class="entry">
+    
+        <li><a class="flat-box" href="/categories/WebGPU/"><div class='name'>WebGPU</div><div class='badget'>2</div></a></li>
+    
+    </ul>
+    
+</div>
+</section>
+
+  <section class='m_widget links'>
+<div class='header'>Links</div>
+<div class='content'>
+    <ul class="entry">
+    
+        <li><a class="flat-box" target="_blank" href="https://www.w3.org/community/gpu/">
+            <div class='name'>W3C GPU</div>
+        </a></li>
+    
+        <li><a class="flat-box" target="_blank" href="http://www.w3cplus.com/">
+            <div class='name'>W3C Plus</div>
+        </a></li>
+    
+    </ul>
+</div>
+</section>
+
   
+<div class="m_widget tagcloud">
+    <div class="header">Tags</div>
+    <div class='content'>
+        <a href="/tags/入门/" style="font-size: 14px; color: #808080">入门</a> <a href="/tags/转载/" style="font-size: 14px; color: #808080">转载</a>
+    </div>
+</div>
+
+
+
+      </aside>
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+  </div>
+  <footer id="footer" class="clearfix">
+
+	<div class="social-wrapper">
+  	
+      
+        <a href="https://github.com/w3gl" class="social github"
+          target="_blank" rel="external">
+          <span class="icon icon-github"></span>
+        </a>
+      
+        <a href="/atom.xml" class="social rss"
+          target="_blank" rel="external">
+          <span class="icon icon-rss"></span>
+        </a>
+      
+    
+  </div>
+  <div>&copy; 2017 <a href="http://w3gl.org" class="codename">w3gl.org</a>. The website powered by <a href="https://hexo.io/" target="_blank">hexo</a>.</div>
+  <div>Theme <a href='https://github.com/stkevintan/hexo-theme-material-flow' class="codename" target="_blank">MaterialFlow</a> designed by <a href="http://keyin.me/" target="_blank">Kevin Tan</a>.</div>
   
-</search>
+</footer>
+
+
+  <script>setLoadingBarProgress(80);</script>
+  
+
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src='//cdn.bootcss.com/node-waves/0.7.5/waves.min.js'></script>
+<script src="//cdn.bootcss.com/scrollReveal.js/3.3.2/scrollreveal.min.js"></script>
+<script src="/js/jquery.fitvids.js"></script>
+<script>
+	var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
+	var GOOGLE_CUSTOM_SEARCH_ENGINE_ID = "";
+	var ALGOLIA_API_KEY = "";
+	var ALGOLIA_APP_ID = "";
+	var ALGOLIA_INDEX_NAME = "";
+  var AZURE_SERVICE_NAME = "";
+  var AZURE_INDEX_NAME = "";
+  var AZURE_QUERY_KEY = "";
+  var BAIDU_API_ID = "";
+  var SEARCH_SERVICE = "hexo";
+  var ROOT = "/"||"/";
+  if(!ROOT.endsWith('/'))ROOT += '/';
+</script>
+<script src="/js/search.js"></script>
+<script src="/js/app.js"></script>
+
+
+  <script>setLoadingBarProgress(100);</script>
+</body>
+</html>

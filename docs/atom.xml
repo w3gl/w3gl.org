@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://w3gl.org/"/>
-  <updated>2017-07-16T12:10:01.000Z</updated>
+  <updated>2017-07-16T13:57:59.000Z</updated>
   <id>http://w3gl.org/</id>
   
   <author>
@@ -16,11 +16,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Next-generation 3D Graphics on the Web</title>
+    <link href="http://w3gl.org/2017/07/16/next-generation-3d-graphics-on-web/"/>
+    <id>http://w3gl.org/2017/07/16/next-generation-3d-graphics-on-web/</id>
+    <published>2017-07-16T13:41:03.000Z</published>
+    <updated>2017-07-16T13:57:59.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/next-generation.jpg&quot; alt=&quot;the next generation&quot;&gt;&lt;br&gt;Apple’s WebKit team today proposed a new Community Group at the W3C to discuss the future of 3D graphics on the Web, and to develop a standard API that exposes modern GPU features including low-level graphics and general purpose computation. W3C Community Groups allow all to freely participate, and we invite browser engineers, GPU hardware vendors, software developers and the Web community to join us.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="WebGPU" scheme="http://w3gl.org/categories/WebGPU/"/>
+    
+    
+      <category term="转载" scheme="http://w3gl.org/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Web图形技术中国社区欢迎您</title>
     <link href="http://w3gl.org/2017/07/16/welcome-and-getting-started/"/>
     <id>http://w3gl.org/2017/07/16/welcome-and-getting-started/</id>
     <published>2017-07-16T10:56:14.000Z</published>
-    <updated>2017-07-16T12:10:01.000Z</updated>
+    <updated>2017-07-16T13:40:04.000Z</updated>
     
     <summary type="html">
     
