@@ -1,0 +1,56 @@
+# Search
+search: 
+  enable: true
+  service: hexo # google/hexo/algolia/azure/baidu
+  # google 
+  google_api_key:
+  google_engine_id:
+  # algolia
+  algolia_app_id:
+  algolia_api_key:
+  algolia_index_name:
+  # azure
+  azure_service_name:
+  azure_index_name:
+  azure_query_key:
+  # baidu
+  baidu_api_id:
+
+# friends link
+links:
+  - name: w3c gpu group
+    url: https://www.w3.org/community/gpu/
+  - name: w3cplus
+    url: http://www.w3cplus.com/
+
+# navigation menu
+menu:
+  - name: Home
+    slug: home
+    url: /
+  # - name: WebGL
+  #   slug: webgl
+  #   url: /categories/WebGL
+  # - name: WebGL2
+  #   slug: webgl2
+  #   url: /categories/WebGL2
+  # - name: WebGPU
+  #   slug: webgpu
+  #   url: /categories/WebGPU
+
+# widgets
+widgets:
+  - categories
+  - links
+  - tagcloud
+
+# Less
+less:
+  compress: true
+
+# use url, not username
+social:
+- slug: github
+  url: https://github.com/w3gl
+- slug: rss
+	url: /atom.xml

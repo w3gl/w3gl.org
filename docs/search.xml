@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[Web图形技术中国社区欢迎您]]></title>
+      <url>/2017/07/16/welcome-and-getting-started/</url>
+      <content type="html"><![CDATA[<p><img src="/images/webgpu-apple.jpg" alt="webgpu"><br>Web图形技术中国社区正式成立！欢迎GPU开发爱好者或Web技术爱好者一起探讨和学习。<br><a id="more"></a></p>
+<p>2017年2月，GPU的Web社区工作组正式成立，并迅速扩大。我们期待Web图形技术迎来崭新的时代。无论是当下成熟的WebGL技术，还是未来的WebGPU技术，都赋予了在Web端进行GPU开发的卓越能力。有了这些图形技术，Web开发者可以自由的发挥想象，创造神奇的，令人叹为观止作品。</p>
+<p>无论你身为传统的游戏开发者，还是Web技术的狂热爱好者，Web图形技术既是一门崭新的技术，也是一项艰难的挑战。我们希望，这里的每一篇文章，每一滴沉淀，都来自每一个开发者，也服务每一位开发者。在这里，你能翻阅到最新、最权威的原创或译文，我们致力于提供开放、合作、自由的开发者社区，愿大家在热爱的领域里一同前行。</p>
+<p>除了中国社区，您也可以访问W3C的官方社区来获得更多的信息：</p>
+<p><a href="https://www.w3.org/community/gpu/" target="_blank" rel="external">GPU FOR THE WEB COMMUNITY GROUP</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> WebGPU </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 入门 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
+</search>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>W3GL</title>
+  <subtitle>Web Graphics Langauge</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://w3gl.org/"/>
+  <updated>2017-07-16T12:10:01.000Z</updated>
+  <id>http://w3gl.org/</id>
+  
+  <author>
+    <name>terrykingcha</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Web图形技术中国社区欢迎您</title>
+    <link href="http://w3gl.org/2017/07/16/welcome-and-getting-started/"/>
+    <id>http://w3gl.org/2017/07/16/welcome-and-getting-started/</id>
+    <published>2017-07-16T10:56:14.000Z</published>
+    <updated>2017-07-16T12:10:01.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/images/webgpu-apple.jpg&quot; alt=&quot;webgpu&quot;&gt;&lt;br&gt;Web图形技术中国社区正式成立！欢迎GPU开发爱好者或Web技术爱好者一起探讨和学习。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="WebGPU" scheme="http://w3gl.org/categories/WebGPU/"/>
+    
+    
+      <category term="入门" scheme="http://w3gl.org/tags/%E5%85%A5%E9%97%A8/"/>
+    
+  </entry>
+  
+</feed>
